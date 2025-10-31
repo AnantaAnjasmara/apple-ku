@@ -7,13 +7,7 @@ Ringkasan singkat
 - Teknologi: Expo, React Native, TypeScript, Expo Router
 
 Screenshot Project
-https://imgbox.com/lhKBjX9v
-https://imgbox.com/Uj9CNH7s
-https://imgbox.com/GlI9o5zl
-https://imgbox.com/H5daTGbi
-https://imgbox.com/Opmw1SgH
-https://imgbox.com/DPOc7zyG
-
+<a href="https://imgbox.com/lhKBjX9v" target="_blank"><img src="https://thumbs2.imgbox.com/0b/4a/lhKBjX9v_t.jpg" alt="image host"/></a> <a href="https://imgbox.com/Uj9CNH7s" target="_blank"><img src="https://thumbs2.imgbox.com/52/dc/Uj9CNH7s_t.jpg" alt="image host"/></a> <a href="https://imgbox.com/GlI9o5zl" target="_blank"><img src="https://thumbs2.imgbox.com/f5/71/GlI9o5zl_t.jpg" alt="image host"/></a> <a href="https://imgbox.com/H5daTGbi" target="_blank"><img src="https://thumbs2.imgbox.com/51/74/H5daTGbi_t.jpg" alt="image host"/></a> <a href="https://imgbox.com/Opmw1SgH" target="_blank"><img src="https://thumbs2.imgbox.com/01/f3/Opmw1SgH_t.jpg" alt="image host"/></a> <a href="https://imgbox.com/DPOc7zyG" target="_blank"><img src="https://thumbs2.imgbox.com/c2/4a/DPOc7zyG_t.jpg" alt="image host"/></a>
 Konten ini ditulis dalam bahasa Indonesia agar mudah dipahami oleh kontributor lokal.
 
 ## Cepat mulai
