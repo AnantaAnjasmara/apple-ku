@@ -5,6 +5,8 @@ Repository ini berisi aplikasi mobile/web yang dibuat dengan Expo + TypeScript d
 Ringkasan singkat
 - Nama proyek: apple-ku
 - Teknologi: Expo, React Native, TypeScript, Expo Router
+  
+Konten ini ditulis dalam bahasa Indonesia agar mudah dipahami oleh kontributor lokal.
 
 Screenshot Project
 <div align="center">
@@ -13,9 +15,6 @@ Screenshot Project
 
 Record Loom
 https://www.loom.com/share/ff25a373b1a944fc902c6d66547915bf
-
-
-Konten ini ditulis dalam bahasa Indonesia agar mudah dipahami oleh kontributor lokal.
 
 ## Cepat mulai
 
