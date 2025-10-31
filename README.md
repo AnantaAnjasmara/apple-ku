@@ -1,50 +1,84 @@
-# Welcome to your Expo app 👋
+# apple-ku
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Repository ini berisi aplikasi mobile/web yang dibuat dengan Expo + TypeScript dan file-based routing (Expo Router).
 
-## Get started
+Ringkasan singkat
+- Nama proyek: apple-ku
+- Teknologi: Expo, React Native, TypeScript, Expo Router
 
-1. Install dependencies
+Screenshot Project
+https://imgbox.com/lhKBjX9v
+https://imgbox.com/Uj9CNH7s
+https://imgbox.com/GlI9o5zl
+https://imgbox.com/H5daTGbi
+https://imgbox.com/Opmw1SgH
+https://imgbox.com/DPOc7zyG
 
-   ```bash
-   npm install
-   ```
+Konten ini ditulis dalam bahasa Indonesia agar mudah dipahami oleh kontributor lokal.
 
-2. Start the app
+## Cepat mulai
 
-   ```bash
-   npx expo start
-   ```
+1. Pasang dependensi
 
-In the output, you'll find options to open the app in a
+```powershell
+npm install
+```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. Jalankan aplikasi (Expo)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+```powershell
+npx expo start
+```
 
-## Get a fresh project
+Setelah perintah di atas, buka Metro/Expo Dev Tools lalu pilih perangkat target:
+- Development build (jika sudah menyiapkan dev build)
+- Android emulator
+- iOS simulator (macOS) atau perangkat fisik
+- Expo Go (tersedia untuk pengujian cepat, namun beberapa fitur mungkin tidak tersedia)
 
-When you're ready, run:
+3. Reset project (opsional — tersedia di template)
 
-```bash
+```powershell
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Struktur proyek (ringkasan)
 
-## Learn more
+- `app/` — Semua route dan UI utama berbasis file (Expo Router). Contoh: `app/index.tsx`, `app/(tabs)/`, `app/product/[id].tsx`.
+- `components/` — Komponen UI kembali-pakai seperti `ProductCard`, `ImagePicker`, `CartItem`.
+- `assets/` — Gambar dan aset statis.
+- `constants/` — Konstanta aplikasi, daftar produk, tema, dsb.
+- `hooks/` — Custom hooks, mis. `use-theme-color`.
+- `stores/` — State management sederhana (mis. `CartStore`, `ProductStore`).
+- `types/` — Tipe TypeScript yang digunakan di seluruh proyek.
 
-To learn more about developing your project with Expo, look at the following resources:
+Contoh file penting:
+- `app/_layout.tsx` — Layout root untuk routing
+- `app/(tabs)/index.tsx` — Halaman utama yang menampung tab
+- `components/ProductFormModal.tsx` — Modal untuk menambah/ubah produk
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Catatan pengembangan
 
-## Join the community
+- Proyek memakai TypeScript. Pastikan editor Anda memuat tipe yang benar (VS Code direkomendasikan).
+- Gunakan file-based routing milik Expo Router untuk menambah halaman baru: cukup buat file di `app/`.
+- Untuk styling, cek `constants/theme.ts` dan komponen `themed-*`.
 
-Join our community of developers creating universal apps.
+Edge cases & tips
+- Jika Metro bundler menampilkan cache error, jalankan `expo start -c` untuk membersihkan cache.
+- Untuk debugging di Android/iOS, gunakan log perangkat (adb logcat atau Console.app pada macOS).
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Kontribusi
+
+1. Fork repo
+2. Buat branch fitur: `git checkout -b feat/nama-fitur`
+3. Commit perubahan dengan pesan jelas
+4. Buka pull request dan jelaskan perubahan
+
+## Lisensi
+Lisensi belum ditentukan di repo ini (periksa file `LICENSE` jika ada). Jika Anda pemilik repo, tambahkan lisensi yang sesuai.
+
+## Kontak
+Jika ada pertanyaan mengenai kode atau setup, buka issue di repository atau hubungi pemilik proyek.
+
+--
+README ini dibuat / disesuaikan untuk proyek `apple-ku` (template Expo). Semoga membantu untuk memulai dan berkontribusi.
